@@ -34,3 +34,84 @@ Task Flow is a mobile-first task management app built with **React Native** and 
 git clone https://github.com/your-username/task-flow.git
 cd task-flow
 ```
+
+
+
+### 2. Install dependencies
+
+#### Backend
+
+```bash
+cd backend
+npm install
+node index.js
+```
+
+#### Frontend (React Native with Expo)
+
+```bash
+cd frontend
+npm install
+npm start
+```
+
+> 💡 **Ensure your mobile device and development machine are on the same Wi-Fi network.**
+
+### 3. Open the App
+
+* Scan the QR code using **Expo Go** (Android)
+* Or use the **Expo CLI** options to open the app:
+
+  * Press `a` for Android
+  * Press `w` for Web
+
+---
+
+## 📁 Project Structure
+
+```
+task-flow/
+├── backend/          # Express.js backend
+│   └── index.js      # API routes and task logic
+├── frontend/         # React Native app
+│   └── App.js        # Main app file
+└── README.md
+```
+
+---
+
+## 📡 API Endpoints
+
+| Method | Endpoint      | Description                |
+| ------ | ------------- | -------------------------- |
+| GET    | `/tasks`      | Get all tasks              |
+| POST   | `/tasks`      | Add new task               |
+| PUT    | `/tasks/move` | Move task between sections |
+| DELETE | `/tasks`      | Delete a task              |
+
+---
+
+## 🤝 Contributing
+
+Pull requests are welcome! Feel free to fork the repo and submit improvements or bug fixes.
+
+---
+
+## 📄 License
+
+MIT License
+
+---
+
+## ✍️ Author
+
+**Nandana** – *Inspired by a web-based drag-and-drop interface*
+
+---
+
+> Built with 💛 using React Native + Node.js
+
+```
+
+
+
