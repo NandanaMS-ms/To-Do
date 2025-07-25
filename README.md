@@ -111,7 +111,6 @@ MIT License
 
 > Built with 💛 using React Native + Node.js
 
-```
 
 
 
