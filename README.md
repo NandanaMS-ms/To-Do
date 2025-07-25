@@ -44,7 +44,7 @@ cd task-flow
 ```bash
 cd backend
 npm install
-node index.js
+npm start
 ```
 
 #### Frontend (React Native with Expo)
